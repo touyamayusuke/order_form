@@ -1,0 +1,6 @@
+ja:
+  activerecord:
+    attributes:
+      order:
+        name: "お名前"
+        
