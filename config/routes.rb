@@ -9,5 +9,6 @@ Rails.application.routes.draw do
       get :complete
     end
   end
+  
   mount Sidekiq::Web, at: '/sidekiq'
 end
