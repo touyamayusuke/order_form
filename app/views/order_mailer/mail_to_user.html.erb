@@ -10,8 +10,7 @@
 <%= t('activerecord.attributes.order_product.product_id') %>: <%= order_product.name_and_price_text %><br>
 <%= t('activerecord.attributes.order_product.quantity') %>: <%= order_product.quantity %><br>
 <% end %>
-
-合計金額: <%= number_to_currency(@order.total_price) %>（税込）<br>
+合計金額: <%= number_to_currency(@order.total_price) %>(税込)<br>
 <br>
 <%= t('activerecord.attributes.order.payment_method_id') %>: <%= @order.payment_method.name %><br>
 <%= t('activerecord.attributes.order.delivery_address') %>: <%= @order.delivery_address %><br>
